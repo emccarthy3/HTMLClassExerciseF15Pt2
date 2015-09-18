@@ -73,6 +73,14 @@ li {
     text-transform: uppercase;
     margin-top:0px;
 }
+#product_link{
+    text-size: 14px;
+    color: white;
+}
+.home a.home {
+  font-size: 14px;
+  color:orange;
+}
 #email_link:link{
     width:156px
 }

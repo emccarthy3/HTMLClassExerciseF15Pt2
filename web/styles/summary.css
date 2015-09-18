@@ -73,20 +73,12 @@ li {
     text-transform: uppercase;
     margin-top:0px;
 }
-#product_link{
-    text-size: 14px;
-    color: white;
-}
-.home a.home {
-  font-size: 14px;
-  color:orange;
-}
 #email_link:link{
     width:156px
 }
-#home_link:link{
-    font-size: 14px;
-    color:orange;
+.product_list a.product_list {
+  font-size: 14px;
+  color:orange;
 }
 #home_link:hover, #decorate_link:hover, #home_link:hover, #product_link:hover, #email_link:hover, #personal_link:hover{
     background-color: grey;
@@ -94,7 +86,10 @@ li {
     color:black;
 }
 
-
+#home_link{
+  font-size: 14px;
+    color:white;  
+}
 
 
 .horizontal_bar{
@@ -139,12 +134,16 @@ margin-top:0px;
 .goblin{
     margin-bottom: 10px;
 }
-.capital{
- 
-    margin-bottom:0px;
+table{
+    margin-left: 160px;
 }
-.capital::first-letter {
-  font-size:200%
+th {
+    
+    margin-left: 100px;
+  
+}
+td{
+   text-align:center;
 }
 .cat{
     padding-left: 170px;
@@ -159,18 +158,16 @@ margin-top:0px;
 .product{
     padding-bottom: 0px;
 }
-.cat img{
-  
-     
-}
+
 p{
     margin-top:0px;
  padding-left: 170px;
 }
 h2{
-    padding-left: 170px;
+  
         margin-bottom:0px;
         padding-bottom: 10px;
+       text-align: center;
 }
 .sidebar{
 
@@ -191,10 +188,15 @@ li{
 margin-bottom: 5pt;
 }
 a{
-    color:orange;
+    color:black;
 }
-a:hover{
-    color:green
+th:nth-child(3){
+    background: #F5DEB3;
+    border-color: #F5DEB3;
+}
+tr td:nth-child(3) {
+  background: #F5DEB3;
+  border-color: #F5DEB3;
 }
 
 .guarantee{
@@ -223,8 +225,3 @@ footer{
 
     font-size: 75%;
 }
-
-
-
-
-
